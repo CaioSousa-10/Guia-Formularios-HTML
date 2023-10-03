@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #353232;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.formulario {
+    max-width: 40%;
+    margin: 10% 30% 30% 30%;
+    padding: 1rem;
+    background-color: #d191da;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.formulario div {
+    padding: 0.17rem;
+    margin-bottom: 2rem;
+}
+
+
+/* elementos de formulario */
+
+label {
+    font-size: 1.6rem;
+    display: block;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+input {
+    display: block;
+    text-align: left;
+    border: 1px solid #000;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+}
+
+#selecteds {
+    display: flex;
+    justify-content: left;
+}
+
+select {
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    background-color: darkgrey;
+    margin-right: 1rem;
+}
+
+textarea {
+    border: 1px solid #000;
+    border-radius: 1rem;
+}
+
+fieldset {
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+legend {
+    font-size: 1.2rem;
+}
+
+.radio label, 
+.radio input  {
+    display: inline-block;
+}
